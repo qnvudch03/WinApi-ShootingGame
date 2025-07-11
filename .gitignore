@@ -1,6 +1,11 @@
 ### C++ ###
 # Prerequisites
 *.d
+*.db
+*.pdb
+*.vsidx
+*.ipch
+/ipch
 
 # Compiled Object files
 *.slo
