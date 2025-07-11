@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{105cabbb-0203-45b7-bfbd-962d5cc7aea7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SingleTon">
+      <UniqueIdentifier>{893f05ef-8821-43e1-a083-a93997facb21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{e72ffcad-6e1e-41a0-8371-e0ef7a0217b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scence">
+      <UniqueIdentifier>{39c1b62f-a233-4f1c-88a7-3000d645aad2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{d398951e-ac5c-4964-9df1-d8ae46bb44bf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ShootingGame.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="defines.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="singleTon.h">
+      <Filter>SingleTon</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>SingleTon</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>SingleTon</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeManager.h">
+      <Filter>SingleTon</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Scence.h">
+      <Filter>Scence</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>Scence</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureResource.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Missile.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Explostion.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="RobyScence.h">
+      <Filter>Scence</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ShootingGame.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="defines.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="singleTon.cpp">
+      <Filter>SingleTon</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>SingleTon</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>SingleTon</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeManager.cpp">
+      <Filter>SingleTon</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Scence.cpp">
+      <Filter>Scence</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>Scence</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureResource.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Missile.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Explostion.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="RobyScence.cpp">
+      <Filter>Scence</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ShootingGame.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="ShootingGame.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

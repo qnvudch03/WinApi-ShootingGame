@@ -1,0 +1,25 @@
+﻿  Player.cpp
+C:\Users\inha\source\repos\SVN_LJH\ShootingGame\ShootingGame\TextureResource.h(18,50): warning C4244: '인수': 'int32'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 '/Player.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\inha\source\repos\SVN_LJH\ShootingGame\ShootingGame\TextureResource.h(18,42): warning C4244: '인수': 'int32'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 '/Player.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\inha\source\repos\SVN_LJH\ShootingGame\ShootingGame\Player.cpp(76,26): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 '/Player.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\inha\source\repos\SVN_LJH\ShootingGame\ShootingGame\Collider.h(15,19): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 '/Player.cpp'을(를) 컴파일하는 중)
+      C:\Users\inha\source\repos\SVN_LJH\ShootingGame\ShootingGame\Collider.h(15,19):
+      템플릿 인스턴스화 컨텍스트(가장 오래된 인스턴스화 컨텍스트)가
+          C:\Users\inha\source\repos\SVN_LJH\ShootingGame\ShootingGame\Player.h(9,3):
+          컴파일되는 클래스 템플릿 인스턴스화 'Collider<Player>'에 대한 참조를 확인하세요.
+          C:\Users\inha\source\repos\SVN_LJH\ShootingGame\ShootingGame\Collider.h(13,2):
+          클래스 템플릿 멤버 함수 'Collider<Player>::Collider(Vector)'을(를) 컴파일하는 중입니다.
+              C:\Users\inha\source\repos\SVN_LJH\ShootingGame\ShootingGame\Player.cpp(15,12):
+              'Player::Init'에서 'Collider<Player>::Collider'에 대한 첫 번째 참조를 확인하세요.
+  
+C:\Users\inha\source\repos\SVN_LJH\ShootingGame\ShootingGame\Collider.h(16,19): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 '/Player.cpp'을(를) 컴파일하는 중)
+  
+  ShootingGame.vcxproj -> C:\Users\inha\source\repos\SVN_LJH\ShootingGame\x64\Debug\ShootingGame.exe
